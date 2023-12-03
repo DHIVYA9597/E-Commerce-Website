@@ -1,0 +1,140 @@
+#nav{
+    display:flex;
+    justify-content: space-around;
+    background:linear-gradient(to top,rgb(244, 69, 200),rgb(24, 207, 48));
+    
+     
+    
+    
+    position: sticky;
+}
+
+
+#nav1{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    position:sticky;
+    top: 0 ;
+    left: 0;
+    z-index:100;
+    box-shadow: 5px 5px 20px rgb(o, 0,0,.5);
+}
+#logo{
+    font-size:45px;
+    font-weight: 800;
+    font-family: sans-serif ;
+    font-style: italic;
+    color:rgb(66, 7, 57) ;
+
+}
+#go{
+    color: rgb(197, 191, 31);
+ }
+#input_data{
+    border: none;
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgb(11, 11, 11);
+    padding left:10px;
+ }
+.navtab{
+    display: flex;
+    align-items: center;
+    color-interpolation-filters: rgb(199, 15, 15);
+
+}
+#search{
+   background:linear-gradient(to top,rgb(244, 69, 200),rgb(24, 207, 48));
+     
+}
+.products{
+    display: flex;
+    align-items: center;
+}
+navtab a:hover{
+    color: rgb(5, 97, 14);
+}
+.login{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to top,rgb(43, 227, 34),rgb(54, 54, 178));
+}
+form{
+    width: 26rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255,255,255,0,06);
+     box-shadow:0 8px 32px rgb(23, 23, 52) ;
+    border-radius: 30px;
+    color: rgb(10, 10, 10);
+    font-weight: 800px;
+    border-left:1px solid rgba(220, 209, 209, 0.3);
+    border-top:1px solid rgba(55, 47, 47 ,.3);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: antiquewhite;
+    text-shadow:2px 2px 4px rgba(0,0,0,.3);
+    letter-spacing: 3px;
+    margin-bottom:5% ;
+    opacity: .7;
+}
+label{
+    font-size: 20px;
+    color: antiquewhite;
+    margin-left:10% ;
+    opacity: .8;
+    text-shadow:2px 2px 4px rgba(0,0,0,.3) ;
+}
+input{
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom:8% ;
+    border:none ;
+    outline: none;
+    background: transparent;
+    color: rgb(22, 5, 51);
+    border-bottom: 2px solid rgb(231, 236, 231,0.7);
+}
+button{
+    width:50%;
+    margin:3% auto;
+    color: rgb(242, 242, 246);
+    font-size: 15px;
+    opacity: .8;
+    background:rgba(44, 22, 189, 0.6) ;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius:30px ;
+    text-shadow:2px 2px 4px rgba(110, 71, 71, 0.3) ;
+    box-shadow:3px 3px 5px rgba(65, 68, 82, 0.37) ;
+    border-left: 5px solid rgba(125, 69, 69, 0.3) ; 
+    border-top: 5px solid rgba(227, 216, 216, 0.3) ; 
+
+
+}
+a{
+    font-size: 14px;
+    text-align: center;
+    color: rgb(13, 59, 134);
+    opacity:100%;
+
+}
+#shop{
+    text-align: center;
+    color: rgb(6, 6, 6);
+    background:linear-gradient(to top,rgb(56, 167, 211),rgb(236, 145, 231));
+    
+}
+.bc{
+    background:linear-gradient(to top,rgb(43,227,34),rgb(54,54,178));
+
+}

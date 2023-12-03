@@ -1,0 +1,90 @@
+#nav{
+    display:flex;
+    justify-content: space-around;
+    background:linear-gradient(to top,rgb(244, 69, 200),rgb(24, 207, 48));
+    
+    position: sticky;
+}
+
+
+#nav1{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    position:sticky;
+    top: 0 ;
+    left: 0;
+    z-index:100;
+    box-shadow: 5px 5px 20px rgb(o, 0,0,.5);
+}
+#logo{
+    font-size:45px;
+    font-weight: 800;
+    font-family: sans-serif ;
+    font-style: italic;
+    color:rgb(62, 11, 54) ;
+
+}
+#go{
+    color: rgb(45, 219, 29);
+ }
+#input_data{
+    border: none;
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgb(215, 207, 215);
+    padding left:10px;
+ }
+.navtab{
+    display: flex;
+    align-items: center;
+    color-interpolation-filters: rgb(199, 15, 15);
+
+}
+#search{
+   background:linear-gradient(to top,rgb(244, 69, 200),rgb(24, 207, 48));
+     
+}
+.products{
+    display: flex;
+    align-items: center;
+}
+
+navtab a:hover{
+    color: rgb(5, 97, 14);
+}
+.carousel-item{
+    width: 600px;
+    height: 600px;
+    padding: 5px;
+    
+    
+    
+}
+
+#gifts{
+    width: 500px;
+    height: 500px;
+
+}
+body{
+    background: rgb(19, 19, 19);
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.first{
+    color: #9ff00b;
+    text-align: center;
+    font-weight: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.summa{
+     color: #f7f760;
+    text-align: center;
+    font-weight: 100px;
+    font-family: sans-serif ;
+}
